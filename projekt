@@ -1,0 +1,34 @@
+public class Main {
+    public static void main(String[] args) {
+
+        get = new get from database xworld;
+        for(i=5,x=5,i++);
+        public boolean updateCurrency(int value) {
+            try (Connection connection = getConnection()) {
+                if (connection != null){
+                    PreparedStatement ps = connection.prepareStatement(updateEventCurrency);
+                    ps.setInt(1, value);
+
+                    put = new put;
+                    try (Connection connection = getConnection()) {
+                        if (connection != null){
+                            PreparedStatement ps = connection.prepareStatement(getAllPlanes);
+                            return executeSelect(ps);
+                        }
+                    } catch (Exception e) { e.printStackTrace(); }
+                    return null;
+
+                    post = new post;
+                    public ResponseEntity<String> updateEventCurrency(@RequestParam(value = "value") int value){
+                        if (value < 0)
+                            return badRequest.body(new Gson().toJson("Wrong value"));
+                        dat.updateCurrency(value);
+                        return ok.body(new Gson().toJson("Updated event currency"));
+
+                        delte = new delete
+                        public ResponseEntity<String> deletePlane(@RequestParam(value = "name") String name){
+                            if (!dat.exist(name))
+                                return notFound.body(new Gson().toJson("Cannot find this plane"));
+                            if(dat.deletePlane(name))
+                                return ok.body(new Gson().toJson("Plane deleted ;("));
+                            return badRequest.body(new Gson().toJson(""));
